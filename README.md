@@ -1,2 +1,2 @@
 # seleniumtraining
-for selenium java demo
+for selenium java demo of POM model
