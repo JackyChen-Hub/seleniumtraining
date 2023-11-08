@@ -18,7 +18,7 @@ public class BaseClass {
 
 	@SuppressWarnings("deprecation")
 	public WebDriver init_driver(Properties prop) {
-		String browserName=prop.getProperty("browser");
+		String browserName=prop.getProperty("browser"); // to get it from external config file
 		if (browserName.equalsIgnoreCase("chrome")) {
 		WebDriverManager.chromedriver().setup();
 		driver= new ChromeDriver();
